@@ -34,9 +34,11 @@
 + Servlet：3.1
 + MySQL：5.7.30
 
-### 附
+### 附加
 
-一、预先设计好的数据库
+#### 一
+
+预先设计好的数据库
 
 ```sql
 SHOW DATABASES;
@@ -63,8 +65,9 @@ SELECT * FROM userlist;
 <img src="https://gitee.com/j__strawhat/MyImages/raw/master/20210223182409.png"/>
 
 
+#### 二
 
-二、源代码中使用了 BeanUtils 简化封装 JavaBean
+源代码中使用了 `BeanUtils` 简化封装 JavaBean
 
 在 `src\top\JoyDee\web\servlet\LoginServlet.java` 中：
 
